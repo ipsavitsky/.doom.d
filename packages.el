@@ -49,6 +49,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 
-(package! gitlab)
 (package! robot-mode
   :recipe (:host github :repo "kopoli/robot-mode"))
+(package! kubernetes)
