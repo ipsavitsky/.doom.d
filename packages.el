@@ -52,3 +52,19 @@
 (package! robot-mode
   :recipe (:host github :repo "kopoli/robot-mode"))
 (package! kubernetes)
+;; (package! org-modern)
+;; (with-eval-after-load 'org (global-org-modern-mode))
+
+(package! ob-mermaid)
+;; :recipe (:host github :repo "arnm/ob-mermaid"))
+
+(setq ob-mermaid-cli-path "/home/ilyasavitsky/.bun/bin/mmdc")
+
+;; (org-babel-do-load-languages
+;;     'org-babel-load-languages
+;;     '((mermaid . t)
+;;       (scheme . t)
+;;       (your-other-langs . t)))
+
+;; (define-derived-mode helm-mode yaml-mode "helm"
+;;   "Major mode for editing kubernetes helm templates")
